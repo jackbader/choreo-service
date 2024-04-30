@@ -1,16 +1,12 @@
 openapi: 3.0.3
 info:
-  title: Choreo Sample - Book List - Nodejs REST API Service
+  title: Choreo Book List
   description: >-
-    This is a sample API specification for a simple reading list application with in-memory cache
-    written in Nodejs
+    Create, delete and update books in an in-memory list cache.
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
   version: 1.0.0
-externalDocs:
-  description: Choreo
-  url: https://choreo.dev
 servers:
   - url: http://localhost:8080
 tags:
