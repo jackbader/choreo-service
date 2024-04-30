@@ -1,10 +1,9 @@
-import express from "express";
-import cache from "./cache.mjs";
-import { v4 as uuidv4 } from "uuid";
 import cors from "cors";
 import dotenv from 'dotenv';
-import pg from 'pg';
+import express from "express";
 import fs from 'fs';
+import pg from 'pg';
+import cache from "./cache.mjs";
 
 dotenv.config();
 
